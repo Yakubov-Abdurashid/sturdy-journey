@@ -64,54 +64,54 @@ function App() {
           </ul>
         </div>
         <div className="header3">
-        <img src={imgli2} alt="" />
+          <img src={imgli2} alt="" />
         </div>
       </div>
-<Karona />
-<Card></Card>
-<Azalik></Azalik>
+      <Karona />
+      <Card></Card>
+      <Azalik></Azalik>
 
-<footer>
-<div className="foa">
-<img src={imgli3} alt="" />
+      <footer>
+        <div className="foa">
+          <img src={imgli3} alt="" />
 
-<div className="ku">
-<p>Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
-<button className="btn1">
+          <div className="ku">
+            <p>Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
+            <button className="btn1">
               <i class="fa-brands fa-telegram"></i>     Подписатся
             </button>
-</div>
-</div>
+          </div>
+        </div>
 
 
-<div className="lal">
-  <div className="mul"><h5>О сайте </h5>
-  <p>О сайте 
-Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
-</p>
-  </div>
-  <div className="mul"><h5>
-  Информация о сайте         </h5>
-  
-  
-  <p>
-       
-Напишите нам   <br />      
-Реклама   <br />      
-Прислать новость</p></div>
-  <div className="mul">
-    <h5>
-    Использование материалов         
+        <div className="lal">
+          <div className="mul"><h5>О сайте </h5>
+            <p>О сайте
+              Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+            </p>
+          </div>
+          <div className="mul"><h5>
+            Информация о сайте         </h5>
 
 
-    </h5>
-    <p>
-    Темы дня  <br />       
-    Наша команда
-    </p>
-  </div>
-</div>
-</footer>
+            <p>
+
+              Напишите нам   <br />
+              Реклама   <br />
+              Прислать новость</p></div>
+          <div className="mul">
+            <h5>
+              Использование материалов
+
+
+            </h5>
+            <p>
+              Темы дня  <br />
+              Наша команда
+            </p>
+          </div>
+        </div>
+      </footer>
 
     </>
   )
