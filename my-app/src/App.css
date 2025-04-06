@@ -109,9 +109,114 @@ footer{
 
 main{
     width: 1200px;
-    height: 500px;
-    border: 1px solid black;
+    height: auto;
+    /* border: 1px solid black; */
     margin: auto;
 }
 
 
+.box1{
+    display: flex;
+}
+.box2{
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid black; */
+    button{
+        background-color: #295093;
+        width: 180px;
+        height: 40px;
+        text-align: center;
+        color: white;
+        border-radius: 7px;
+        margin-top: 9px;
+    }
+}
+.contact-card{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    margin-left: 80px
+}
+.input{
+    width: 550px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#summary{
+    margin-top: 20px;
+}
+
+.input2{
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+}
+.hamidjj{
+    width: 250px;
+}
+.gggg{
+    display: flex;
+    h3{
+        margin-left: 7px;
+        margin-top: 27px;
+    }
+}
+
+
+.box3 {
+    width: 550px;
+    height: 600px;
+    padding-left: 20px;
+  }
+  
+  .contact-card {
+    width: 480px;
+    height: 350px;
+    border-radius: 10px;
+    border: 2px solid #BCC3CD;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  
+  .contact-title {
+    color:#295091;
+   margin-left: 80px;
+ 
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    color: #888888;
+    margin-top: 20px;
+  }
+  
+  .icons img, .apps img {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  
+
+  .icons{
+    font-size: 25px;
+    margin-left: 7px;
+    color: #295091;
+  }
+
+  .knopka{
+    border-radius: 7px;
+   background-color: #295091;
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+}
