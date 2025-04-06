@@ -64,7 +64,7 @@ function App() {
           <img src={imgli2} alt="" />
         </div>
       </div>
-
+<main></main>
       <footer>
         <div className="foa">
           <img src={imgli3} alt="" />
